@@ -26,6 +26,9 @@ public ModelAndView register(HttpServletRequest req,HttpServletResponse res)
 {
 System.out.println("Reached register");
 
+
+
+
 return new ModelAndView("register");
 }
 
